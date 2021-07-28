@@ -47,4 +47,6 @@ header {
     width: 430px;
 }
 
-/* .collapse-item {} */
+.brands img {
+    width: 100vw;
+}

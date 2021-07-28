@@ -17,6 +17,32 @@
 
 <body>
     <header>
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-white" href="#">HONDA CBR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold text-white me-4" aria-current="page"
+                                href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <section class="container pb-5">
             <div class="row align-items-center">
                 <div class=" col-lg-6 header-title ">
@@ -140,7 +166,7 @@
         <section class="container mt-5">
             <h1 class="fw-bold mb-5 text-center">Frequently Asked <span class="text-danger">Questions</span></h1>
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-3">
                     <img class="img-fluid faq-image" src="images/faq.png" alt="">
                 </div>
                 <div class="col-lg-6">
@@ -229,6 +255,43 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Brands logos -->
+        <section class="container mt-5">
+            <h1 class="fw-bold mb-5 text-center">OUR<span class="text-danger"> BRANDS</span></h1>
+            <div class=" brands">
+                <img class="img-fluid" src="images/brands.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- contact section -->
+        <section id="contact" class="container mt-5">
+            <h1 class="fw-bold mb-5 text-center">GET IN<span class="text-danger"> TOUCH</span></h1>
+            <div class="d-flex flex-column align-items-center">
+                <div class=" w-md-50">
+                    <div class="row mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Name:</label>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@email.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Massage:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-danger mx-auto fw-bold px-3">SEND</button>
             </div>
         </section>
     </main>
