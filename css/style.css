@@ -1,0 +1,44 @@
+header {
+    background-color: #264653;
+}
+
+.header-title h1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+}
+
+.header-title p {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.header-title button {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #E76F51;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.futur-bikes img {
+    width: 288px;
+
+}
+
+.futur-bike img {
+    filter: grayscale(100%);
+}
+
+.Clients-item {
+    padding: 35px;
+    width: 323px;
+}
+
+.Clients-item img {
+    width: 150px;
+    margin-bottom: 30px;
+
+}
