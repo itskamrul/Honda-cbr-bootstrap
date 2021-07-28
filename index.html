@@ -17,8 +17,8 @@
 
 <body>
     <header>
-        <nav class="container navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+        <nav class=" navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
                 <a class="navbar-brand fw-bold text-white" href="#">HONDA CBR</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,11 @@
                             <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#">Shop</a>
+                            <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#shop">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold text-white me-4" aria-current="page" href="#">News</a>
+                            <a class="nav-link active fw-bold text-white me-4" aria-current="page"
+                                href="#leatest-news">News</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active fw-bold text-white me-4" aria-current="page"
@@ -43,7 +44,7 @@
                 </div>
             </div>
         </nav>
-        <section class="container pb-5">
+        <section class="container pb-5 pt-5">
             <div class="row align-items-center">
                 <div class=" col-lg-6 header-title ">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
@@ -85,7 +86,7 @@
     </header>
     <main class="container">
         <!-- Futur bike section -->
-        <section class="mt-5 mb-5 ">
+        <section class="mt-5 mb-5 " id="shop">
             <div>
                 <div class="text-center">
                     <h1 class="fw-bold">Fetured Bikes 2021</h1>
@@ -100,6 +101,46 @@
                     </div>
                     <div class="col-lg-4 mb-3 futur-bike">
                         <img class="img-fluid ms-5" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest News section -->
+        <section class="container mb-5" id="leatest-news">
+            <h1 class="fw-bold mb-5 text-center">Latest News</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card p-3">
+                        <img src="images/bike-1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body mt-4">
+                            <h3 class="card-title fw-bold">Ducati XDIAVEL S-73</h3>
+                            <p class="card-text my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <button type="button" class="btn btn-danger mx-auto fw-bold px-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3">
+                        <img src="images/bike-2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body mt-4">
+                            <h3 class="card-title fw-bold">Motorcycles & Scooters</h3>
+                            <p class="card-text my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <button type="button" class="btn btn-danger mx-auto fw-bold px-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card p-3">
+                        <img src="images/bike-3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body mt-4">
+                            <h3 class="card-title fw-bold">2021 Honda CBR500R</h3>
+                            <p class="card-text my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <button type="button" class="btn btn-danger mx-auto fw-bold px-3">Read More</button>
+                        </div>
                     </div>
                 </div>
             </div>
