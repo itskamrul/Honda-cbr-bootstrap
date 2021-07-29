@@ -54,3 +54,10 @@ nav {
 .brands img {
     width: 100vw;
 }
+
+footer {
+    color: #FFFFFF;
+    background-color: #0B0D17;
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
